@@ -1,5 +1,6 @@
 # RNN - Project
 #EN
+
 The goal of the project is to predict values according to the RNN-Recurrent Neural network model through the original data that I created.
 My role in the project was to generate the original values through a sine function and I also randomized this data to make some noise to the data I used the RNN model to get predicted values according to the values I generated and in the end I got predicted values at the same rate as the original values and therefore the percentage of error is small.
 I used Python language in building this project.
