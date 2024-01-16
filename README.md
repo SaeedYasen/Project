@@ -7,6 +7,7 @@ Example: The RNN model works according to input and output
 For example diabetes if the patient has 2 of a high glucose percentage weight loss and poor vision (this is the input) then he is considered to have diabetes (this is the output).
 
 ֳֳ#HE
+
 המטרה של הפרוייקט לחזות ערכים לפי מודל RNN-Recurrent Neural network דרך נתונים מקוריים שייצרתי.
 התפקיד שלי בפרוייקט הייה ייצור הערכים המקוריים  דרך פונקציית סינוס וגם עשיתי ראנדומייז לנתונים האלו בכדי  לעשות קצת רעש לנתונים והשתמשתי במודל RNN בכדי לקבל ערכים חזויים לפי הערכים שייצרתי ובסוף קיבלתי ערכים חזויים באותו קצב עם הערכים המקוריים ולפי כך אחוז השגיאה קטן.
 השתמשתי בשפת פייתון בבניית הפרויקט הזה.
