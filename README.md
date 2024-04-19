@@ -2,6 +2,7 @@
 Analyzed and implemented an RNN model in Python, achieving a grade of 90 and predicting 
 values with a 95% accuracy rate closely matching the original data
 more information 👇
+
 #EN
 
 The goal of the project is to predict values according to the RNN-Recurrent Neural network model through the original data that I created.
