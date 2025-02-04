@@ -1,16 +1,19 @@
-# RNN-Based Prediction Model
+# Simple RNN - Sine Function Prediction  
 
-## Project Description
-The goal of this project was to predict values using the RNN (Recurrent Neural Network) model based on original data that I generated. I created the original values using a sine function and introduced noise by randomizing the data to simulate real-world variability. Using the RNN model, I predicted values based on this noisy data, and the predicted values closely matched the original values, resulting in a low error percentage.
+This project demonstrates how a Recurrent Neural Network (RNN) can learn to predict future values of the sine function based on previously observed data. The goal is to train the RNN to recognize temporal patterns without explicitly using the sine function formula.  
 
-## Technologies Used
-- **Python**
-- **RNN**
+## Features  
+- Generates training data using the sine function.  
+- RNN is used to learn sequential dependencies in the data.  
+- Predicts future values based solely on previous observations.  
+- Demonstrates fundamental sequence modelling concepts.  
 
-## Key Contributions
-- Generated original data using a sine function and introduced noise to create a more realistic dataset.
-- Implemented the RNN model to predict values from the noisy data.
-- Achieved a high accuracy rate with a minimal error percentage, demonstrating the model's effectiveness.
+## Technologies Used  
+- Python  
+- TensorFlow/Keras  
+- NumPy & Matplotlib  
 
-## Results
-Successfully developed a predictive model with low error margins, validating the strength of the RNN approach in time-series forecasting.
+## How to Run  
+1. Install dependencies:  
+   ```bash
+   pip install tensorflow numpy matplotlib
